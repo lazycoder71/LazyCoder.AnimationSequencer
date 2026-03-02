@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepTransformScale : AnimationSequenceStepTransform
     {
         public override string DisplayName => base.DisplayName + "Local Scale";

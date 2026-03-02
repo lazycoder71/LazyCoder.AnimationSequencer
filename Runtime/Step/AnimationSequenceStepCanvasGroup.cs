@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepCanvasGroup : AnimationSequenceStepAction<CanvasGroup>
     {
         [Range(0f, 1f), ShowIf("@_changeStartValue")]
@@ -23,7 +24,7 @@ namespace LazyCoder.AnimationSequencer
             float end = _relative ? owner.alpha + _alpha : _alpha;
 
             Tween tween = owner.DOFade(end, duration)
-                               .ChangeStartValue(start);
+                .ChangeStartValue(start);
 
             return tween;
         }
@@ -34,7 +35,7 @@ namespace LazyCoder.AnimationSequencer
 
             return owner.DOFade(owner.alpha, 0.0f);
         }
-        
+
         public override void Setup(AnimationSequence animationSequence)
         {
             CanvasGroup owner = _isSelf ? animationSequence.GetComponent<CanvasGroup>() : _owner;

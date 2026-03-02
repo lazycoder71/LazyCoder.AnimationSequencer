@@ -1,8 +1,8 @@
 {
   "name": "lazycoder.unity.animationsequencer",
   "displayName": "LazyCoder Animation Sequencer",
-  "version": "1.0.1",
-  "unity": "6000.1",
+  "version": "1.0.2",
+  "unity": "6000.3",
   "description": "Animation Sequencer using DOTween in Unity.",
   "keywords": [
     "tween",

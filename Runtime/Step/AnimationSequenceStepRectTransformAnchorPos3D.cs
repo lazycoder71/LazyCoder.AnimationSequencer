@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepRectTransformAnchorPos3D : AnimationSequenceStepRectTransform
     {
         public override string DisplayName => base.DisplayName + "Anchor Pos 3D";

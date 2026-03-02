@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepGraphicColor : AnimationSequenceStepAction<Graphic>
     {
         [ShowIf("@_changeStartValue")]

@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepSpriteRenderer : AnimationSequenceStepAction<SpriteRenderer>
     {
         [ShowIf("@_changeStartValue")]

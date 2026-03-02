@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepTransformMove : AnimationSequenceStepTransform
     {
         [VerticalGroup("Value")]

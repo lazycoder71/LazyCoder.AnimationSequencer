@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepInterval : AnimationSequenceStep
     {
         [SerializeField] private float _duration;

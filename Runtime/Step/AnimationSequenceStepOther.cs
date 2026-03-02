@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepOther : AnimationSequenceStep
     {
         [HorizontalGroup("AddType")]

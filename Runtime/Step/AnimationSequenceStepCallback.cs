@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public class AnimationSequenceStepCallback : AnimationSequenceStep
     {
         [HorizontalGroup("AddType")]
