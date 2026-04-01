@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace LazyCoder.AnimationSequencer
 {
+    [System.Serializable]
     public abstract class AnimationSequenceStepTransform : AnimationSequenceStepAction<Transform>
     {
         [ShowIf("@_changeStartValue")]
